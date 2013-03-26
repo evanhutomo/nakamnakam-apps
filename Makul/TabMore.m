@@ -7,12 +7,16 @@
 //
 
 #import "TabMore.h"
+#import "FormRegister.h"
+#import "LoginPage.h"
+//#import <QuartzCore/QuartzCore.h>
 
 @interface TabMore ()
 
 @end
 
 @implementation TabMore
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,13 +30,27 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+//    CATransition *s = [[CATransition alloc]init ];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)btnSaveOption:(id)sender {
+    UIAlertView *test = [[UIAlertView alloc] initWithTitle:@"Option"
+                                                   message:@"Pengaturan sudah disimpan"
+                                                  delegate:self
+                                         cancelButtonTitle:@"Tutup"
+                                         otherButtonTitles:nil];
+    [test show];
+}
+
+- (IBAction)btnLogout:(id)sender {
+    [self dismissModalViewControllerAnimated:YES];
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 @end

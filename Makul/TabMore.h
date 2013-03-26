@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TabMore : UIViewController
+
+
+@interface TabMore : UIViewController <UIAlertViewDelegate>
+
+- (IBAction)btnSaveOption:(id)sender;
+- (IBAction)btnLogout:(id)sender;
 
 @end

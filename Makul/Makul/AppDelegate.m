@@ -17,7 +17,14 @@
     self.splashScreen = [[SplashScreen alloc] initWithNibName:@"SplashScreen" bundle:nil];
     self.window.rootViewController = self.splashScreen;
     [self.window makeKeyAndVisible];
+    
+    //koding buat custom nav
+    
     return YES;
+}
+
+- (void)kustom{
+    //buat kustom repeat gambar nav bar
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

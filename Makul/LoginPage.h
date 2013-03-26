@@ -1,3 +1,4 @@
+
 //
 //  LoginPage.h
 //  Makul
@@ -8,6 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface LoginPage : UIViewController <UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *txtUsername;
 @property (weak, nonatomic) IBOutlet UITextField *txtPassword;
@@ -17,5 +19,6 @@
 -(IBAction)btnLogin:(id)sender;
 //-(IBAction)btnRegister:(id)sender;
 -(IBAction)dismiss:(id)sender;
-
+- (IBAction)btnRegister:(id)sender;
+-(void)goToTabController;
 @end

@@ -7,6 +7,8 @@
 //
 
 #import "LoginPage.h"
+#import "FormRegister.h"
+#import "TabControllerMakul.h"
 
 @interface LoginPage ()
 
@@ -24,10 +26,14 @@
     return self;
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [[self navigationController] setNavigationBarHidden:YES animated:YES];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [[self navigationController] setNavigationBarHidden:YES];
 }
 
 - (void)didReceiveMemoryWarning
@@ -51,9 +57,9 @@
 //    NSString *aa = (NSString *)lblUsername.text;
 //    NSString *bb = (NSString *)lblPassword.text;
     //NSLog(@"aa: %@, bb: %@, u: %@, p: %@", aa, bb, u, p);
-        [self performSelector:@selector(goToTabController) withObject:self afterDelay:0.5];
+        [self performSelector:@selector(goToTabController) withObject:self afterDelay:0.2];
 }
--(void)goToTabController{
+-(void)goToTabController {
     NSArray *te = [[NSBundle mainBundle] loadNibNamed:@"TabControllerMakul" owner:self options:nil];
     UITabBarController *tabcon = (UITabBarController *)[te objectAtIndex:0];
     [tabcon setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
@@ -64,6 +70,20 @@
     [txtUsername resignFirstResponder];
     [txtPassword resignFirstResponder];
 }
+
+- (IBAction)btnRegister:(id)sender {
+//    [self performSelector:@selector(goToFormRegister) withObject:self];
+    FormRegister *aa = [[FormRegister alloc]init ];
+    [self.navigationController pushViewController:aa animated:YES];
+}
+
+//-(void)goToFormRegister{
+//    NSArray *de = [[NSBundle mainBundle] loadNibNamed:@"FormRegisterViewController" owner:self options:nil];
+//    UIViewController *formview = (UIViewController *)[de objectAtIndex:0];
+//    [formview setModalTransitionStyle:UIModalTransitionStyleCoverVertical];
+//    [self presentModalViewController:formview animated:YES];
+//
+//}
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField{
     [txtPassword resignFirstResponder];
