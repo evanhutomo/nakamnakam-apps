@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5217B4B1171D3A3A00CAA918 /* DaftarPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5217B4AF171D3A3A00CAA918 /* DaftarPage.m */; };
+		5217B4B2171D3A3A00CAA918 /* DaftarPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5217B4B0171D3A3A00CAA918 /* DaftarPage.xib */; };
+		5217B4BC171E17CB00CAA918 /* NearbyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5217B4BA171E17CB00CAA918 /* NearbyTableViewController.m */; };
+		5217B4BD171E17CB00CAA918 /* NearbyTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5217B4BB171E17CB00CAA918 /* NearbyTableViewController.xib */; };
+		5217B4C1171E17E100CAA918 /* RecomenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5217B4BF171E17E100CAA918 /* RecomenTableViewController.m */; };
+		5217B4C2171E17E100CAA918 /* RecomenTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5217B4C0171E17E100CAA918 /* RecomenTableViewController.xib */; };
+		5217B4C6171E181500CAA918 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5217B4C4171E181500CAA918 /* MoreViewController.m */; };
+		5217B4C7171E181500CAA918 /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5217B4C5171E181500CAA918 /* MoreViewController.xib */; };
+		5217B4C9171E1FED00CAA918 /* LoginPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5217B4C8171E1FED00CAA918 /* LoginPageViewController.xib */; };
+		5217B4CE171E26C700CAA918 /* HowToUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5217B4CC171E26C700CAA918 /* HowToUseViewController.m */; };
+		5217B4CF171E26C700CAA918 /* HowToUseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5217B4CD171E26C700CAA918 /* HowToUseViewController.xib */; };
+		5217B4D3171E784100CAA918 /* LeftPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5217B4D1171E784100CAA918 /* LeftPage.m */; };
+		5217B4D4171E784100CAA918 /* LeftPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5217B4D2171E784100CAA918 /* LeftPage.xib */; };
+		522AC364171C4299008F5DFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522AC363171C4299008F5DFB /* UIKit.framework */; };
+		522AC366171C4299008F5DFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522AC365171C4299008F5DFB /* Foundation.framework */; };
+		522AC368171C4299008F5DFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522AC367171C4299008F5DFB /* CoreGraphics.framework */; };
+		522AC36E171C4299008F5DFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 522AC36C171C4299008F5DFB /* InfoPlist.strings */; };
+		522AC370171C429A008F5DFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 522AC36F171C4299008F5DFB /* main.m */; };
+		522AC374171C429A008F5DFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 522AC373171C429A008F5DFB /* AppDelegate.m */; };
+		522AC376171C429A008F5DFB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 522AC375171C429A008F5DFB /* Default.png */; };
+		522AC378171C429A008F5DFB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 522AC377171C429A008F5DFB /* Default@2x.png */; };
+		522AC388171C4397008F5DFB /* bgregister.png in Resources */ = {isa = PBXBuildFile; fileRef = 522AC381171C4397008F5DFB /* bgregister.png */; };
+		522AC389171C4397008F5DFB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 522AC382171C4397008F5DFB /* icon.png */; };
+		522AC38A171C4397008F5DFB /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 522AC383171C4397008F5DFB /* icon@2x.png */; };
+		522AC38C171C4397008F5DFB /* SplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 522AC385171C4397008F5DFB /* SplashScreen.png */; };
+		522AC38D171C4397008F5DFB /* SplashScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 522AC386171C4397008F5DFB /* SplashScreen@2x.png */; };
+		522AC393171C43C6008F5DFB /* SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 522AC391171C43C6008F5DFB /* SplashScreen.m */; };
+		522AC394171C43C6008F5DFB /* SplashScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522AC392171C43C6008F5DFB /* SplashScreen.xib */; };
+		522AC39C171C4522008F5DFB /* IISideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522AC397171C4522008F5DFB /* IISideController.m */; };
+		522AC39D171C4522008F5DFB /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522AC399171C4522008F5DFB /* IIViewDeckController.m */; };
+		522AC39E171C4522008F5DFB /* IIWrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522AC39B171C4522008F5DFB /* IIWrapController.m */; };
+		522AC3A4171C488A008F5DFB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522AC3A3171C488A008F5DFB /* QuartzCore.framework */; };
+		522AC3A9171C4BEC008F5DFB /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 522AC3A7171C4BEC008F5DFB /* LoginPage.m */; };
+		522AC3AA171C4BEC008F5DFB /* LoginPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522AC3A8171C4BEC008F5DFB /* LoginPage.xib */; };
+		522AC3AF171CDD4A008F5DFB /* CenterPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 522AC3AD171CDD4A008F5DFB /* CenterPage.m */; };
+		522AC3B0171CDD4A008F5DFB /* CenterPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522AC3AE171CDD4A008F5DFB /* CenterPage.xib */; };
+		522AC3B9171CEDBC008F5DFB /* loginPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 522AC3B7171CEDBC008F5DFB /* loginPage.png */; };
+		522AC3BA171CEDBC008F5DFB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 522AC3B8171CEDBC008F5DFB /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5217B4AE171D3A3A00CAA918 /* DaftarPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaftarPage.h; sourceTree = "<group>"; };
+		5217B4AF171D3A3A00CAA918 /* DaftarPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaftarPage.m; sourceTree = "<group>"; };
+		5217B4B0171D3A3A00CAA918 /* DaftarPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DaftarPage.xib; sourceTree = "<group>"; };
+		5217B4B9171E17CB00CAA918 /* NearbyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyTableViewController.h; sourceTree = "<group>"; };
+		5217B4BA171E17CB00CAA918 /* NearbyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyTableViewController.m; sourceTree = "<group>"; };
+		5217B4BB171E17CB00CAA918 /* NearbyTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NearbyTableViewController.xib; sourceTree = "<group>"; };
+		5217B4BE171E17E100CAA918 /* RecomenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecomenTableViewController.h; sourceTree = "<group>"; };
+		5217B4BF171E17E100CAA918 /* RecomenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecomenTableViewController.m; sourceTree = "<group>"; };
+		5217B4C0171E17E100CAA918 /* RecomenTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecomenTableViewController.xib; sourceTree = "<group>"; };
+		5217B4C3171E181500CAA918 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		5217B4C4171E181500CAA918 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		5217B4C5171E181500CAA918 /* MoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
+		5217B4C8171E1FED00CAA918 /* LoginPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginPageViewController.xib; sourceTree = "<group>"; };
+		5217B4CB171E26C700CAA918 /* HowToUseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HowToUseViewController.h; sourceTree = "<group>"; };
+		5217B4CC171E26C700CAA918 /* HowToUseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HowToUseViewController.m; sourceTree = "<group>"; };
+		5217B4CD171E26C700CAA918 /* HowToUseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HowToUseViewController.xib; sourceTree = "<group>"; };
+		5217B4D0171E784100CAA918 /* LeftPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftPage.h; sourceTree = "<group>"; };
+		5217B4D1171E784100CAA918 /* LeftPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftPage.m; sourceTree = "<group>"; };
+		5217B4D2171E784100CAA918 /* LeftPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftPage.xib; sourceTree = "<group>"; };
+		522AC360171C4299008F5DFB /* Nakam2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nakam2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		522AC363171C4299008F5DFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		522AC365171C4299008F5DFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		522AC367171C4299008F5DFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		522AC36B171C4299008F5DFB /* Nakam2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nakam2-Info.plist"; sourceTree = "<group>"; };
+		522AC36D171C4299008F5DFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		522AC36F171C4299008F5DFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		522AC371171C429A008F5DFB /* Nakam2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nakam2-Prefix.pch"; sourceTree = "<group>"; };
+		522AC372171C429A008F5DFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		522AC373171C429A008F5DFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		522AC375171C429A008F5DFB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		522AC377171C429A008F5DFB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		522AC379171C429A008F5DFB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		522AC381171C4397008F5DFB /* bgregister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bgregister.png; path = asset/bgregister.png; sourceTree = "<group>"; };
+		522AC382171C4397008F5DFB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = asset/icon.png; sourceTree = "<group>"; };
+		522AC383171C4397008F5DFB /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "asset/icon@2x.png"; sourceTree = "<group>"; };
+		522AC385171C4397008F5DFB /* SplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SplashScreen.png; path = asset/SplashScreen.png; sourceTree = "<group>"; };
+		522AC386171C4397008F5DFB /* SplashScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SplashScreen@2x.png"; path = "asset/SplashScreen@2x.png"; sourceTree = "<group>"; };
+		522AC390171C43C6008F5DFB /* SplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreen.h; sourceTree = "<group>"; };
+		522AC391171C43C6008F5DFB /* SplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreen.m; sourceTree = "<group>"; };
+		522AC392171C43C6008F5DFB /* SplashScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashScreen.xib; sourceTree = "<group>"; };
+		522AC396171C4522008F5DFB /* IISideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IISideController.h; path = FRAMEWORK/IISideController.h; sourceTree = "<group>"; };
+		522AC397171C4522008F5DFB /* IISideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IISideController.m; path = FRAMEWORK/IISideController.m; sourceTree = "<group>"; };
+		522AC398171C4522008F5DFB /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IIViewDeckController.h; path = FRAMEWORK/IIViewDeckController.h; sourceTree = "<group>"; };
+		522AC399171C4522008F5DFB /* IIViewDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IIViewDeckController.m; path = FRAMEWORK/IIViewDeckController.m; sourceTree = "<group>"; };
+		522AC39A171C4522008F5DFB /* IIWrapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IIWrapController.h; path = FRAMEWORK/IIWrapController.h; sourceTree = "<group>"; };
+		522AC39B171C4522008F5DFB /* IIWrapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IIWrapController.m; path = FRAMEWORK/IIWrapController.m; sourceTree = "<group>"; };
+		522AC39F171C4568008F5DFB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		522AC3A1171C456E008F5DFB /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		522AC3A3171C488A008F5DFB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		522AC3A6171C4BEC008F5DFB /* LoginPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPage.h; sourceTree = "<group>"; };
+		522AC3A7171C4BEC008F5DFB /* LoginPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPage.m; sourceTree = "<group>"; };
+		522AC3A8171C4BEC008F5DFB /* LoginPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginPage.xib; sourceTree = "<group>"; };
+		522AC3AC171CDD4A008F5DFB /* CenterPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterPage.h; sourceTree = "<group>"; };
+		522AC3AD171CDD4A008F5DFB /* CenterPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterPage.m; sourceTree = "<group>"; };
+		522AC3AE171CDD4A008F5DFB /* CenterPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CenterPage.xib; sourceTree = "<group>"; };
+		522AC3B7171CEDBC008F5DFB /* loginPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginPage.png; path = asset/loginPage.png; sourceTree = "<group>"; };
+		522AC3B8171CEDBC008F5DFB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "asset/Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		522AC35D171C4299008F5DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522AC3A4171C488A008F5DFB /* QuartzCore.framework in Frameworks */,
+				522AC364171C4299008F5DFB /* UIKit.framework in Frameworks */,
+				522AC366171C4299008F5DFB /* Foundation.framework in Frameworks */,
+				522AC368171C4299008F5DFB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5217B4AD171D3A2600CAA918 /* Daftar */ = {
+			isa = PBXGroup;
+			children = (
+				5217B4AE171D3A3A00CAA918 /* DaftarPage.h */,
+				5217B4AF171D3A3A00CAA918 /* DaftarPage.m */,
+				5217B4B0171D3A3A00CAA918 /* DaftarPage.xib */,
+			);
+			name = Daftar;
+			sourceTree = "<group>";
+		};
+		5217B4B6171E176200CAA918 /* 2_Nearby */ = {
+			isa = PBXGroup;
+			children = (
+				5217B4B9171E17CB00CAA918 /* NearbyTableViewController.h */,
+				5217B4BA171E17CB00CAA918 /* NearbyTableViewController.m */,
+				5217B4BB171E17CB00CAA918 /* NearbyTableViewController.xib */,
+			);
+			name = 2_Nearby;
+			sourceTree = "<group>";
+		};
+		5217B4B7171E176A00CAA918 /* 3_Recomendation */ = {
+			isa = PBXGroup;
+			children = (
+				5217B4BE171E17E100CAA918 /* RecomenTableViewController.h */,
+				5217B4BF171E17E100CAA918 /* RecomenTableViewController.m */,
+				5217B4C0171E17E100CAA918 /* RecomenTableViewController.xib */,
+			);
+			name = 3_Recomendation;
+			sourceTree = "<group>";
+		};
+		5217B4B8171E177700CAA918 /* 4_More */ = {
+			isa = PBXGroup;
+			children = (
+				5217B4C3171E181500CAA918 /* MoreViewController.h */,
+				5217B4C4171E181500CAA918 /* MoreViewController.m */,
+				5217B4C5171E181500CAA918 /* MoreViewController.xib */,
+			);
+			name = 4_More;
+			sourceTree = "<group>";
+		};
+		5217B4CA171E260800CAA918 /* HowToUsePage */ = {
+			isa = PBXGroup;
+			children = (
+				5217B4CB171E26C700CAA918 /* HowToUseViewController.h */,
+				5217B4CC171E26C700CAA918 /* HowToUseViewController.m */,
+				5217B4CD171E26C700CAA918 /* HowToUseViewController.xib */,
+			);
+			name = HowToUsePage;
+			sourceTree = "<group>";
+		};
+		522AC357171C4299008F5DFB = {
+			isa = PBXGroup;
+			children = (
+				5217B4CA171E260800CAA918 /* HowToUsePage */,
+				5217B4B8171E177700CAA918 /* 4_More */,
+				5217B4B7171E176A00CAA918 /* 3_Recomendation */,
+				5217B4B6171E176200CAA918 /* 2_Nearby */,
+				5217B4AD171D3A2600CAA918 /* Daftar */,
+				522AC3B1171CDD71008F5DFB /* LeftPage */,
+				522AC3AB171CDD38008F5DFB /* CenterPage */,
+				522AC3A5171C4BE0008F5DFB /* LoginPage */,
+				522AC395171C43F7008F5DFB /* ViewDeckFRAMEWORK */,
+				522AC38F171C43B8008F5DFB /* SplashScreen */,
+				522AC380171C431C008F5DFB /* ASSET */,
+				522AC369171C4299008F5DFB /* Nakam2 */,
+				522AC362171C4299008F5DFB /* Frameworks */,
+				522AC361171C4299008F5DFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		522AC361171C4299008F5DFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				522AC360171C4299008F5DFB /* Nakam2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		522AC362171C4299008F5DFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				522AC3A3171C488A008F5DFB /* QuartzCore.framework */,
+				522AC363171C4299008F5DFB /* UIKit.framework */,
+				522AC365171C4299008F5DFB /* Foundation.framework */,
+				522AC367171C4299008F5DFB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		522AC369171C4299008F5DFB /* Nakam2 */ = {
+			isa = PBXGroup;
+			children = (
+				522AC372171C429A008F5DFB /* AppDelegate.h */,
+				522AC373171C429A008F5DFB /* AppDelegate.m */,
+				522AC36A171C4299008F5DFB /* Supporting Files */,
+			);
+			path = Nakam2;
+			sourceTree = "<group>";
+		};
+		522AC36A171C4299008F5DFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				522AC3A1171C456E008F5DFB /* icon@2x.png */,
+				522AC39F171C4568008F5DFB /* icon.png */,
+				522AC36B171C4299008F5DFB /* Nakam2-Info.plist */,
+				522AC36C171C4299008F5DFB /* InfoPlist.strings */,
+				522AC36F171C4299008F5DFB /* main.m */,
+				522AC371171C429A008F5DFB /* Nakam2-Prefix.pch */,
+				522AC375171C429A008F5DFB /* Default.png */,
+				522AC377171C429A008F5DFB /* Default@2x.png */,
+				522AC379171C429A008F5DFB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		522AC380171C431C008F5DFB /* ASSET */ = {
+			isa = PBXGroup;
+			children = (
+				522AC3B7171CEDBC008F5DFB /* loginPage.png */,
+				522AC3B8171CEDBC008F5DFB /* Default-568h@2x.png */,
+				522AC381171C4397008F5DFB /* bgregister.png */,
+				522AC382171C4397008F5DFB /* icon.png */,
+				522AC383171C4397008F5DFB /* icon@2x.png */,
+				522AC385171C4397008F5DFB /* SplashScreen.png */,
+				522AC386171C4397008F5DFB /* SplashScreen@2x.png */,
+			);
+			name = ASSET;
+			sourceTree = "<group>";
+		};
+		522AC38F171C43B8008F5DFB /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				522AC390171C43C6008F5DFB /* SplashScreen.h */,
+				522AC391171C43C6008F5DFB /* SplashScreen.m */,
+				522AC392171C43C6008F5DFB /* SplashScreen.xib */,
+			);
+			name = SplashScreen;
+			sourceTree = "<group>";
+		};
+		522AC395171C43F7008F5DFB /* ViewDeckFRAMEWORK */ = {
+			isa = PBXGroup;
+			children = (
+				522AC396171C4522008F5DFB /* IISideController.h */,
+				522AC397171C4522008F5DFB /* IISideController.m */,
+				522AC398171C4522008F5DFB /* IIViewDeckController.h */,
+				522AC399171C4522008F5DFB /* IIViewDeckController.m */,
+				522AC39A171C4522008F5DFB /* IIWrapController.h */,
+				522AC39B171C4522008F5DFB /* IIWrapController.m */,
+			);
+			name = ViewDeckFRAMEWORK;
+			sourceTree = "<group>";
+		};
+		522AC3A5171C4BE0008F5DFB /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				522AC3A6171C4BEC008F5DFB /* LoginPage.h */,
+				522AC3A7171C4BEC008F5DFB /* LoginPage.m */,
+				522AC3A8171C4BEC008F5DFB /* LoginPage.xib */,
+				5217B4C8171E1FED00CAA918 /* LoginPageViewController.xib */,
+			);
+			name = LoginPage;
+			sourceTree = "<group>";
+		};
+		522AC3AB171CDD38008F5DFB /* CenterPage */ = {
+			isa = PBXGroup;
+			children = (
+				522AC3AC171CDD4A008F5DFB /* CenterPage.h */,
+				522AC3AD171CDD4A008F5DFB /* CenterPage.m */,
+				522AC3AE171CDD4A008F5DFB /* CenterPage.xib */,
+			);
+			name = CenterPage;
+			sourceTree = "<group>";
+		};
+		522AC3B1171CDD71008F5DFB /* LeftPage */ = {
+			isa = PBXGroup;
+			children = (
+				5217B4D0171E784100CAA918 /* LeftPage.h */,
+				5217B4D1171E784100CAA918 /* LeftPage.m */,
+				5217B4D2171E784100CAA918 /* LeftPage.xib */,
+			);
+			name = LeftPage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		522AC35F171C4299008F5DFB /* Nakam2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522AC37D171C429A008F5DFB /* Build configuration list for PBXNativeTarget "Nakam2" */;
+			buildPhases = (
+				522AC35C171C4299008F5DFB /* Sources */,
+				522AC35D171C4299008F5DFB /* Frameworks */,
+				522AC35E171C4299008F5DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nakam2;
+			productName = Nakam2;
+			productReference = 522AC360171C4299008F5DFB /* Nakam2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		522AC358171C4299008F5DFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Evan;
+			};
+			buildConfigurationList = 522AC35B171C4299008F5DFB /* Build configuration list for PBXProject "Nakam2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 522AC357171C4299008F5DFB;
+			productRefGroup = 522AC361171C4299008F5DFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				522AC35F171C4299008F5DFB /* Nakam2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		522AC35E171C4299008F5DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522AC36E171C4299008F5DFB /* InfoPlist.strings in Resources */,
+				522AC376171C429A008F5DFB /* Default.png in Resources */,
+				522AC378171C429A008F5DFB /* Default@2x.png in Resources */,
+				522AC388171C4397008F5DFB /* bgregister.png in Resources */,
+				522AC389171C4397008F5DFB /* icon.png in Resources */,
+				522AC38A171C4397008F5DFB /* icon@2x.png in Resources */,
+				522AC38C171C4397008F5DFB /* SplashScreen.png in Resources */,
+				522AC38D171C4397008F5DFB /* SplashScreen@2x.png in Resources */,
+				522AC394171C43C6008F5DFB /* SplashScreen.xib in Resources */,
+				522AC3AA171C4BEC008F5DFB /* LoginPage.xib in Resources */,
+				522AC3B0171CDD4A008F5DFB /* CenterPage.xib in Resources */,
+				522AC3B9171CEDBC008F5DFB /* loginPage.png in Resources */,
+				522AC3BA171CEDBC008F5DFB /* Default-568h@2x.png in Resources */,
+				5217B4B2171D3A3A00CAA918 /* DaftarPage.xib in Resources */,
+				5217B4BD171E17CB00CAA918 /* NearbyTableViewController.xib in Resources */,
+				5217B4C2171E17E100CAA918 /* RecomenTableViewController.xib in Resources */,
+				5217B4C7171E181500CAA918 /* MoreViewController.xib in Resources */,
+				5217B4C9171E1FED00CAA918 /* LoginPageViewController.xib in Resources */,
+				5217B4CF171E26C700CAA918 /* HowToUseViewController.xib in Resources */,
+				5217B4D4171E784100CAA918 /* LeftPage.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		522AC35C171C4299008F5DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522AC370171C429A008F5DFB /* main.m in Sources */,
+				522AC374171C429A008F5DFB /* AppDelegate.m in Sources */,
+				522AC393171C43C6008F5DFB /* SplashScreen.m in Sources */,
+				522AC39C171C4522008F5DFB /* IISideController.m in Sources */,
+				522AC39D171C4522008F5DFB /* IIViewDeckController.m in Sources */,
+				522AC39E171C4522008F5DFB /* IIWrapController.m in Sources */,
+				522AC3A9171C4BEC008F5DFB /* LoginPage.m in Sources */,
+				522AC3AF171CDD4A008F5DFB /* CenterPage.m in Sources */,
+				5217B4B1171D3A3A00CAA918 /* DaftarPage.m in Sources */,
+				5217B4BC171E17CB00CAA918 /* NearbyTableViewController.m in Sources */,
+				5217B4C1171E17E100CAA918 /* RecomenTableViewController.m in Sources */,
+				5217B4C6171E181500CAA918 /* MoreViewController.m in Sources */,
+				5217B4CE171E26C700CAA918 /* HowToUseViewController.m in Sources */,
+				5217B4D3171E784100CAA918 /* LeftPage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		522AC36C171C4299008F5DFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522AC36D171C4299008F5DFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		522AC37B171C429A008F5DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		522AC37C171C429A008F5DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		522AC37E171C429A008F5DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nakam2/Nakam2-Prefix.pch";
+				INFOPLIST_FILE = "Nakam2/Nakam2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		522AC37F171C429A008F5DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nakam2/Nakam2-Prefix.pch";
+				INFOPLIST_FILE = "Nakam2/Nakam2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		522AC35B171C4299008F5DFB /* Build configuration list for PBXProject "Nakam2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522AC37B171C429A008F5DFB /* Debug */,
+				522AC37C171C429A008F5DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522AC37D171C429A008F5DFB /* Build configuration list for PBXNativeTarget "Nakam2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522AC37E171C429A008F5DFB /* Debug */,
+				522AC37F171C429A008F5DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 522AC358171C4299008F5DFB /* Project object */;
+}
